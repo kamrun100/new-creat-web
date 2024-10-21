@@ -1,0 +1,186 @@
+/* ==========================================Nav & Hero================================= */
+
+.nav-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand{
+    color: deepskyblue;
+    font-weight: 400;
+    
+}
+
+
+.hero {
+    background-image: url(./Image/hero.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    text-align: center;
+}
+
+
+.search {
+    margin-top: 90px;
+    padding: 10px;
+    width: 300px;
+}
+
+
+
+.nav-item>.nav-link {
+    color: dodgerblue;
+    font-size: large;
+}
+
+/* ============================Nav & Hero  End================================= */
+
+/* ==========================photos view Start================================== */
+
+h1 {
+    color: darkcyan;
+}
+
+.pplat {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.col-3 > img {
+    width: 100%;
+    height: auto;
+   
+}
+
+
+/* ==========================photos view End =================================== */
+
+
+/* ==========================button section start===================================== */
+
+.row-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.previous {
+    background-color: seagreen;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn-next {
+    background-color: seagreen;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 20rem;
+    border: none;
+    color: aliceblue;
+}
+
+.middle {
+    display: flex;
+
+
+}
+
+.btn1 {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn3 {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn4 {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn1>:hover {
+    background-color: seagreen;
+}
+
+/* ===================================footer section start============================ */
+
+.row-footer {
+    display: flex;
+}
+
+h3 {
+    color: mediumseagreen;
+}
+
+.acz {
+    margin-left: 150px;
+}
+
+.ourlink {
+    margin-left: 60px;
+}
+
+h2 {
+    color: mediumseagreen;
+}
+
+.cdn {
+    display: flex;
+}
+
+.code {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        height: 150px;
+    }
+
+    .row-button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
